@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  background: #0d1421;
+  color: #ffffff;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+div {
+  margin: 10px 0;
+}
+
+input {
+  margin: 5px;
+  padding: 16px 20px;
+  border: 2px solid #2d3748;
+  border-radius: 12px;
+  background: #1a1f2e;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7877c6;
+  background: #232937;
+  box-shadow: 0 0 0 3px rgba(120, 119, 198, 0.1);
+}
+
+input::placeholder {
+  color: #718096;
+  font-weight: 400;
+}
+
+button {
+  margin: 5px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button:disabled {
+  background: #4a5568;
+  cursor: not-allowed;
+}
+
+h2, h3 {
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, #7877c6, #ff77c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  color: #e2e8f0;
+}
+
+p {
+  color: #a0aec0;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Glass morphism effect for containers */
+.glass-container {
+  background: rgba(26, 31, 46, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(45, 55, 72, 0.5);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Wallet buttons styling */
+.wallet-adapter-button.wallet-adapter-button-trigger {
+  background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  width: auto;
+  min-width: fit-content;
+  flex-shrink: 0;
+}
+
+/* Balance display styling */
+#balance {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #68d391;
+  text-align: center;
+  padding: 20px;
+  background: rgba(104, 211, 145, 0.1);
+  border: 1px solid rgba(104, 211, 145, 0.3);
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+/* Component sections */
+.component-section {
+  background: #1a1f2e;
+  border: 1px solid #2d3748;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 16px 0;
+}
+
+/* Enhanced component headers */
+.component-section h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+/* Component content styling */
+.component-section input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.component-section button {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+/* Balance display enhancement */
+.component-section #balance {
+  background: rgba(104, 211, 145, 0.1);
+  padding: 20px;
+  border: 1px solid rgba(104, 211, 145, 0.3);
+  border-radius: 12px;
+  text-align: center;
+  margin: 16px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #68d391;
+}
