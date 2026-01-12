@@ -1,11 +1,14 @@
-# 🌊 Solana DApp
+#  Solana DApp
 
 A modern **Solana-based decentralized application (DApp)** built with **React** that allows users to interact with the Solana blockchain through wallet integration.  
 This project demonstrates core Web3 concepts such as wallet connection, balance fetching, SOL transfers, airdrops, and message signing.
 
 ---
+## Deployment Link:-
 
-## 📋 Project Overview
+https://solana-dapp-kohl.vercel.app
+
+## Project Overview
 
 - **Name:** Solana DApp  
 - **Type:** Decentralized Application (DApp)  
@@ -15,17 +18,17 @@ This project demonstrates core Web3 concepts such as wallet connection, balance 
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 **Wallet Connection** – Connect and disconnect Solana wallets  
-- 💰 **Balance Display** – View real-time SOL balance  
-- 🚿 **Airdrop Request** – Request test SOL from Solana Devnet faucet  
-- ✍️ **Message Signing** – Sign messages using wallet keys (no SOL spent)  
-- 🔁 **Token Sending** – Transfer SOL to other wallet addresses  
+-  **Wallet Connection** – Connect and disconnect Solana wallets  
+-  **Balance Display** – View real-time SOL balance  
+-  **Airdrop Request** – Request test SOL from Solana Devnet faucet  
+-  **Message Signing** – Sign messages using wallet keys (no SOL spent)  
+-  **Token Sending** – Transfer SOL to other wallet addresses  
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - **Frontend:** React.js (Vite)  
 - **Blockchain:** Solana  
@@ -35,7 +38,7 @@ This project demonstrates core Web3 concepts such as wallet connection, balance 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 decentralized-app/
 ├── src/
@@ -52,7 +55,7 @@ decentralized-app/
 
 ---
 
-## 🔧 Key Dependencies
+##  Key Dependencies
 
 - `@solana/wallet-adapter-react` – Wallet integration  
 - `@solana/wallet-adapter-base` – Base wallet adapter  
@@ -63,7 +66,7 @@ decentralized-app/
 
 ---
 
-## 💡 Component Details
+##  Component Details
 
 ### App.jsx
 - Root application container  
@@ -97,17 +100,17 @@ decentralized-app/
 
 ---
 
-## 🎨 Design Features
+##  Design Features
 
-- 🌙 Dark theme with crypto wallet aesthetics  
-- 📱 Responsive design (mobile-friendly)  
-- 🧊 Glassmorphism UI effects  
-- 🎨 Purple–pink gradient accents  
-- 🧱 Grid-based layout  
+-  Dark theme with crypto wallet aesthetics  
+-  Responsive design (mobile-friendly)  
+-  Glassmorphism UI effects  
+-  Purple–pink gradient accents  
+-  Grid-based layout  
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Client-side wallet integration only  
 - No private key storage  
@@ -116,7 +119,7 @@ decentralized-app/
 
 ---
 
-## 🌐 Network Configuration
+##  Network Configuration
 
 - **Primary Network:** Solana Devnet  
 - **RPC Endpoint:** Solana Cluster API  
@@ -128,7 +131,7 @@ decentralized-app/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Clone the repository
 ```bash
