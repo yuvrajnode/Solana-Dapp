@@ -39,7 +39,7 @@ https://solana-dapp-kohl.vercel.app
 ---
 
 ##  Project Structure
-
+```
 decentralized-app/
 ├── src/
 │   ├── App.jsx               # Main application component
@@ -52,7 +52,7 @@ decentralized-app/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
 ##  Key Dependencies
