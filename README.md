@@ -4,9 +4,9 @@ A modern **Solana-based decentralized application (DApp)** built with **React** 
 This project demonstrates core Web3 concepts such as wallet connection, balance fetching, SOL transfers, airdrops, and message signing.
 
 ---
-## Deployment Link:-
+**Live demo →** [solana-dapp-kohl.vercel.app](https://solana-dapp-kohl.vercel.app)
 
-https://solana-dapp-kohl.vercel.app
+![Solana DApp: wallet connect, SOL balance, airdrop and transfer panels](docs/screenshot.png)
 
 ## Project Overview
 
