@@ -1,4 +1,4 @@
-#  Solana DApp
+# Solana DApp · Wallet & Devnet Playground
 
 A modern **Solana-based decentralized application (DApp)** built with **React** that allows users to interact with the Solana blockchain through wallet integration.  
 This project demonstrates core Web3 concepts such as wallet connection, balance fetching, SOL transfers, airdrops, and message signing.
